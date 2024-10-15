@@ -1,6 +1,6 @@
 // controllers/matchController.js
 const Match = require('../models/matchModel');
-const io = require('../server');
+
 
 // Fetch the current score and overs
 const getCurrentMatch = async (req, res) => {
