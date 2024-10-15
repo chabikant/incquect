@@ -1,0 +1,71 @@
+/* src/components/styles/UserView.css */
+.user-view {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f9fc;
+    height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .animation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .animation-section p {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .animation-section p {
+    animation: blink 1s ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    .animation-section p {
+      font-size: 18px;
+    }
+  }
+  
+
+  

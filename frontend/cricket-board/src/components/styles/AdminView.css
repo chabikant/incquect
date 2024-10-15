@@ -1,0 +1,112 @@
+/* src/components/styles/AdminView.css */
+.admin-view {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f9fc;
+    height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .control-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .control-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .run-controls {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .run-controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .run-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .run-controls button:active {
+    background-color: #004085;
+    transform: scale(0.95);
+  }
+  
+  .over-listing {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .over-listing h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .over-listing div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .over-listing div p {
+    margin: 0;
+    font-size: 16px;
+    color: #343a40;
+  }
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    .run-controls button {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  
+    .over-listing div {
+      padding: 10px;
+    }
+  }
+  
+  
